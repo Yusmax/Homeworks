@@ -1,0 +1,15 @@
+C:\Users\USER\RiderProjects\TcpListener\Listener\obj\Debug\net7.0\Listener.csproj.AssemblyReference.cache
+C:\Users\USER\RiderProjects\TcpListener\Listener\obj\Debug\net7.0\Listener.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\RiderProjects\TcpListener\Listener\obj\Debug\net7.0\Listener.AssemblyInfoInputs.cache
+C:\Users\USER\RiderProjects\TcpListener\Listener\obj\Debug\net7.0\Listener.AssemblyInfo.cs
+C:\Users\USER\RiderProjects\TcpListener\Listener\obj\Debug\net7.0\Listener.csproj.CoreCompileInputs.cache
+C:\Users\USER\RiderProjects\TcpListener\Listener\bin\Debug\net7.0\Listener.exe
+C:\Users\USER\RiderProjects\TcpListener\Listener\bin\Debug\net7.0\Listener.deps.json
+C:\Users\USER\RiderProjects\TcpListener\Listener\bin\Debug\net7.0\Listener.runtimeconfig.json
+C:\Users\USER\RiderProjects\TcpListener\Listener\bin\Debug\net7.0\Listener.dll
+C:\Users\USER\RiderProjects\TcpListener\Listener\bin\Debug\net7.0\Listener.pdb
+C:\Users\USER\RiderProjects\TcpListener\Listener\obj\Debug\net7.0\Listener.dll
+C:\Users\USER\RiderProjects\TcpListener\Listener\obj\Debug\net7.0\refint\Listener.dll
+C:\Users\USER\RiderProjects\TcpListener\Listener\obj\Debug\net7.0\Listener.pdb
+C:\Users\USER\RiderProjects\TcpListener\Listener\obj\Debug\net7.0\Listener.genruntimeconfig.cache
+C:\Users\USER\RiderProjects\TcpListener\Listener\obj\Debug\net7.0\ref\Listener.dll
