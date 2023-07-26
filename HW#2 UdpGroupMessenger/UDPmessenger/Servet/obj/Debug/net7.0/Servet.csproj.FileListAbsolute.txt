@@ -1,0 +1,15 @@
+C:\Users\USER\RiderProjects\UDPmessenger\Servet\bin\Debug\net7.0\Servet.exe
+C:\Users\USER\RiderProjects\UDPmessenger\Servet\bin\Debug\net7.0\Servet.deps.json
+C:\Users\USER\RiderProjects\UDPmessenger\Servet\bin\Debug\net7.0\Servet.runtimeconfig.json
+C:\Users\USER\RiderProjects\UDPmessenger\Servet\bin\Debug\net7.0\Servet.dll
+C:\Users\USER\RiderProjects\UDPmessenger\Servet\bin\Debug\net7.0\Servet.pdb
+C:\Users\USER\RiderProjects\UDPmessenger\Servet\obj\Debug\net7.0\Servet.csproj.AssemblyReference.cache
+C:\Users\USER\RiderProjects\UDPmessenger\Servet\obj\Debug\net7.0\Servet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\RiderProjects\UDPmessenger\Servet\obj\Debug\net7.0\Servet.AssemblyInfoInputs.cache
+C:\Users\USER\RiderProjects\UDPmessenger\Servet\obj\Debug\net7.0\Servet.AssemblyInfo.cs
+C:\Users\USER\RiderProjects\UDPmessenger\Servet\obj\Debug\net7.0\Servet.csproj.CoreCompileInputs.cache
+C:\Users\USER\RiderProjects\UDPmessenger\Servet\obj\Debug\net7.0\Servet.dll
+C:\Users\USER\RiderProjects\UDPmessenger\Servet\obj\Debug\net7.0\refint\Servet.dll
+C:\Users\USER\RiderProjects\UDPmessenger\Servet\obj\Debug\net7.0\Servet.pdb
+C:\Users\USER\RiderProjects\UDPmessenger\Servet\obj\Debug\net7.0\Servet.genruntimeconfig.cache
+C:\Users\USER\RiderProjects\UDPmessenger\Servet\obj\Debug\net7.0\ref\Servet.dll
