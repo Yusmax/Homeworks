@@ -75,9 +75,6 @@ body {
     margin: 0;
 }
 
-.nav-body li:hover {
-    background-color: #ff8c00;
-}
 
 .nav-body li:hover a {
     color: white;
@@ -99,7 +96,55 @@ body {
 }
 
 .nav-second {
-    height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: 35px;
+    align-items: center;
     background: linear-gradient(90deg, rgba(62, 103, 150, 0.919) 11.38%, rgba(58, 120, 177, 0.8) 25.23%, rgb(15, 33, 110) 100%);
     box-shadow: 0 0 3px rgba( 0, 0, 0, 0.4);
+}
+
+.nav-sex{
+    margin: 50px 400px;
+    
+
+}
+
+.nav-sexbody li {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    height: 50%;
+    width: 10px;
+    text-align: center;
+    padding: 0px;
+    transition: ease-in-out 0.3s;
+}
+
+
+
+.nav-sexbody a {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+    margin: 0;
+    
+}
+
+.nav-sexbody {
+    margin: 0;
+    height: 100%;
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
