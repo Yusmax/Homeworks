@@ -6,7 +6,7 @@ alert("Salam, " + name);
 var currentYear = new Date().getFullYear();
 var birthYear = parseInt(prompt("In what year were you born:"));
 var age = currentYear - birthYear;
-alert("Senin " + age + "yashin var");
+alert("You have " + age + "years");
 
 // Задание 3
 var sideLength = parseFloat(prompt("Enter the side length of the square:"));
