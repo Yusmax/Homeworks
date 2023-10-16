@@ -6,49 +6,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background-image: url(/assets/backgrounds/blacklines.jpg);
+    background-size: 100%;
     background-color: #ffffff;
+    background-repeat: no-repeat;
+    
 }
 
-.nav-main {
-    background-color: #000000;
-    display: flex;
-    height: 75px;
-    justify-content: flex-start;
-    align-items: center;
-    border: 2px solid black;
+.abt-icon{
+    width: 50px;
 }
-
-.nav-body {
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    white-space: nowrap;
-}
-
-.nav-body li {
-    display: inline-block;
-    margin: 0 10px;
-    text-align: center;
-    transition: ease-in-out 0.3s;
-}
-
-.nav-body a {
-    display: block; /* Делаем ссылки блочными элементами */
-    padding: 30px; /* Добавляем отступы вокруг ссылок для большей активной области */
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    transition: ease-in-out 0.4s;
-}
-
-.nav-body a:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255); /* Добавляем фоновый цвет для активной области */
-}
-
 
 
 .nav-logo {
@@ -65,28 +32,40 @@ body {
 .img-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 494px; /* Adjust the height as needed to center the image vertically within the viewport */
+    align-self: flex-end;
+    height: 478px; /* Adjust the height as needed to center the image vertically within the viewport */
 }
 .img-container-phoneguy {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 524px; /* Adjust the height as needed to center the image vertically within the viewport */
+    height: 500px; /* Adjust the height as needed to center the image vertically within the viewport */
 }
 .img-main {
     max-width: 100%; /* Ensure the image doesn't exceed the container width */
     max-height: 100%; /* Ensure the image doesn't exceed the container height */
 }
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.text-header{
+.header-container{
     display: flex;
     align-items: center;
+    width: 40%;
+    justify-self: center;
     justify-content: center;
-    
+}
+.text-header{
+    background-color: #ffffff;
+    width:  400px;
+    justify-content: center;
 }
 
 .text{
+    background-color: #ffffff;
     font-family: FiraSans;
     margin: 16px 180px;
     font-size: 28px;
@@ -107,3 +86,10 @@ body {
     font-size: 16px;
     margin-top: 20px;
 }
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Style the video container */

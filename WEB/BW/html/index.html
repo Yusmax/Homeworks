@@ -3,8 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
+
     <link rel="stylesheet" href="/css/style.css">
-    <script src="/scripts/navbarPrint.js"></script>
+    <link rel="stylesheet" href="/css/transition.css">
+
+    <script src="https://unpkg.com/swup@4"></script> <!-- Swup script we need to do transition -->
+    <script src="/scripts/swupInstaller.js"></script> <!-- Swup script -->
+    <script src="/scripts/navbarPrint.js"></script> 
+    <script src="/scripts/transitionDisable.js"></script> 
+
+
     <title>Document</title>
 </head>
 
@@ -13,10 +21,13 @@
         <div id="navbar-content"></div>
     </header>
     
-    <main class>
+    <main id="swup" class="transition-fade">
         
-        <div>
-            <h1  class="text-header">Black and White Thinking</h1>
+        <div class="content-container">
+            <div class="header-container">
+                <h1  class="text-header">Black and White Thinking</h1>
+            </div>
+            
             <p class="text">
                 When we fall victim to Black and White Thinking, we have mistakenly reduced an entire spectrum of possibilities down to the two most extreme options. Each is the polar opposite of the other without any shades of gray in between. Often, those categories are of our own creation. We attempt to force the world to conform to our preconceptions about what it should look like.
 
@@ -32,13 +43,14 @@ For example, people can be divided into those who are capable of performing a ta
 
         </div>
         <div class="img-container">
-            <img class="img-main" src="https://i.pinimg.com/564x/3b/27/c2/3b27c25c7d403ab28ce0ae74e3f8b397.jpg">
+            <img class="img-main" src="/assets/3b27c25c7d403ab28ce0ae74e3f8b397-removebg-preview.png">
         </div>
         
         
     
     </main>
-    
+</div>
+    </div>
 </body>
 
 

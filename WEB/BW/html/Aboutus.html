@@ -4,8 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/transition.css">
     <script src="/scripts/navbarPrint.js"></script>
     <title>About Us</title>
+    <script src="https://unpkg.com/swup@4"></script>
+    <script src="/scripts/transitionDisable.js"></script> 
+
+    <script>
+        const swup = new Swup();
+    </script>
        
 </head>
 
@@ -13,7 +20,7 @@
     <header>
         <div id="navbar-content"></div>
     </header>
-    <main>
+    <main id="swup" class="transition-fade">
         <!-- Секция "About Us" -->
         <div class="about-us-section">
             <h2>About Us</h2>
@@ -22,19 +29,22 @@
                 
                 
             </P>
-            <p class="text">If u want add new image to "Black&White" section contact me:</p>
+            <a class="text">If u want add new image to "Black&White" section contact me:</a>
+            <p></p>
+            <a class="text">yusif.it2006@gmail.com</a>
             <div class="contact-info">
-                <p>Email: yusif.it2006@gmail.com</p>
-                <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+                <a href="https://github.com/Yusmax"> <img class="abt-icon" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"/></a>
+                
+                <div class="header-container"></div>
             </div>
         </div>
-        
+        <footer>
+            <div class="img-container-phoneguy">
+                <img src="/assets/images/imgonline-com-ua-BlackWhite-sBhTKVxzFJEG-removebg-preview.png">
+            </div>
+        </footer>
     </main>
-    <footer>
-        <div class="img-container-phoneguy">
-            <img src="/assets/images/imgonline-com-ua-BlackWhite-sBhTKVxzFJEG-removebg-preview.png">
-        </div>
-    </footer>
+    
 </body>
 
 </html>

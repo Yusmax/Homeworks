@@ -1,0 +1,60 @@
+.nav-main {
+    background-color: black;
+    display: flex;
+    height: 75px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.nav-main.dark {
+    background-color: black;
+    color: white;
+}
+
+.nav-body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.nav-body li {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    transition: ease-in-out 0.3s;
+}
+
+.nav-body a {
+    display: block;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out 0.4s;
+}
+
+.nav-body a:hover {
+    color: black;
+    background-color: white;
+}
+
+
+.sun-moon {
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/icons/sunny.png);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: ease-in-out 0.4s;
+}
+
+.sun-moon:hover {
+    background-image: url(/assets/icons/moon.png);
+}
