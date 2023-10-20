@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="/js/heartToCheck.js"></script>
+    <script src="/js/backButton.js"></script>
+</head>
+<body>
+    <nav class="nav-main">
+        <ul class="nav-body">
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Weapons</a>
+                <div class="dropdown-content">
+                    <a class="drop_text"href="/html/index.html">Assault Rifles</a>
+                    <a class="drop_text"href="/html/Handguns.html">Handguns</a>
+                    <a class="drop_text"href="#">Hunting Rifles</a>
+                    <a class="drop_text"href="#">Shotguns</a>
+                    <a class="drop_text"href="#">SMG</a>
+                    
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Ammo</a>
+                <div class="dropdown-content">
+                    <a class="drop_text"href="/html/assaultRifleAmmo.html">Assault Rifle Ammo</a>
+                    <a class="drop_text"href="#">Handgun Ammo</a>
+                    <a class="drop_text"href="#">Hunting Ammo</a>
+                    <a class="drop_text"href="#">Shotgun Ammo</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Accessories</a>
+                <div class="dropdown-content">
+                    <a class="drop_text" href="#">Magazines</a>
+                    <a class="drop_text" href="#">Scopes</a>
+                    <a class="drop_text" href="#">Lasers</a>
+                    <a class="drop_text" href="#">Grips</a>
+
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="product-info">
+        <img src="/assets/product images/Weapons/Assault rifles/AK-47_type_II_noBG.png" alt="Product Image">
+        <h2>AK47</h2>
+        <p class="description">The AK-47, also known as the Kalashnikov, is a renowned assault rifle with a rich history. Designed by Mikhail Kalashnikov, this firearm is celebrated for its exceptional reliability and widespread use worldwide. Its simple, rugged design has made it an icon of military hardware. The AK-47 fires the 7.62x39mm cartridge and is distinguished by its distinctive curved magazine.
+
+            With a selective-fire capability, it can operate in both semi-automatic and automatic modes. The AK-47 has played a significant role in various conflicts and is favored for its durability and ease of use. It continues to be a symbol of military might and has left an indelible mark on the world of firearms.</p>
+        <p class="year">Year of Release: 1947</p>
+        <p class="stock">In Stock: 50</p>
+        <div class="button-container">
+            <button class="buy-button">Buy</button>
+            <button class="favorite-button" onclick="toggleFavorite()"><i class="fas fa-heart"></i></button>
+        </div>
+        <button class="back-button" onclick="goBack()"><i class="fas fa-arrow-left"></i></button>
+    </div>
+    
+</body>
+</html>

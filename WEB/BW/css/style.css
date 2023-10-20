@@ -71,7 +71,9 @@ body {
     font-size: 28px;
 }
 
-
+.custom-cursor {
+    cursor: url('https://pngimg.com/d/dot_PNG3.png') 10 10, auto;
+}
 .about-us-section {
     padding: 20px;
     text-align: center;

@@ -1,0 +1,309 @@
+@font-face {
+    font-family: "Military";
+    src: url(/assets/Fonts/gunplay.regular.otf);
+  }
+body{
+    background-size: 30%;
+    background-color: #ffffff;
+    background-image: url(/assets/military-seamless-pattern-illustration_272897-100.png);
+    font-family: Military;
+    
+    
+}
+.nav-body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.nav-main {
+    background-color: black;
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    align-items: center; /* Добавлено для вертикального центрирования */
+    border: 2px solid black;
+}
+
+
+/* Style the navigation bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #4e634c;
+}
+
+nav ul li {
+    display: inline;
+}
+.user-icon {
+    float: right; /* Выравниваем иконку справа */
+    margin-right: 20px; /* Определяем отступ справа */
+    line-height: 75px; /* Выравниваем вертикально по центру навбара */
+}
+/* Style the dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #364534;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the dropdown button on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the link when hovering over it */
+nav a:hover {
+    background-color: #2d3c2c;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color:#4e634c;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Military;
+}
+
+/* Remove list styling for dropdown items */
+.dropdown-content {
+    list-style-type: none;
+}
+
+.nav-main .nav-body li a {
+    text-decoration: none;
+    
+}
+
+.nav-main .nav-body li.home a {
+    color: white; /* Установите желаемый цвет, например, красный (red) */
+}
+
+.nav-main .nav-body li {
+    margin: 80px; /* Установите желаемый размер пробела между элементами */
+}
+
+.drop_text{
+    font-size: 18px;
+    font-family: Military;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s; /* Добавляем анимацию перехода для размера */
+}
+
+.product-card:hover {
+    transform: scale(1.1); /* Увеличиваем размер при наведении (на 10%) */
+}
+
+.product-card a {
+    text-decoration: none;
+    color: #333;
+}
+
+.product-card img {
+    width: 200px; /* Установите желаемую ширину для изображения */
+    height: 200px; /* Установите желаемую высоту для изображения */
+    object-fit:scale-down; /* Сохранить пропорции изображения и обрезать лишнее, если необходимо */
+}
+
+.product-card h2 {
+    margin: 10px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff0000; /* Установите желаемый цвет текста, например, красный (red) */
+}
+
+.product-info {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-info img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.description, .year, .stock {
+    font-size: 16px;
+    color: #666;
+}
+
+
+
+
+.product-info {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 80%;
+    max-width: 1000px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-info img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 20px 0;
+    color: #333;
+}
+
+.description, .year, .stock {
+    font-size: 18px;
+    color: #666;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+/* Добавьте следующие стили для кнопки "Назад" */
+.back-button {
+    background-color: #16882f;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
+    font-size: 20px;
+    color: white; /* Цвет текста кнопки */
+}
+
+.back-button:hover {
+    background-color: #0e581b;
+    transform: scale(1.1);
+}
+
+.buy-button {
+    background-color: #16882f;
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
+    border-radius: 10px; /* Добавили округление кнопок */
+    margin: 5px;
+
+}
+
+.buy-button:hover {
+    background-color: #0e581b;
+    transform: scale(1.1);
+}
+.ammo-button {
+    background-color: #16882f;
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
+    border-radius: 10px; /* Добавили округление кнопок */
+    margin: 5px;
+
+}
+
+.ammo-button:hover {
+    background-color: #0e581b;
+    transform: scale(1.1);
+}
+.favorite-button {
+    background-color: #a80303;
+    color: white;
+    border: 5px;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.2s;
+    border-radius: 10px; /* Добавили округление кнопок */
+    margin: 5px;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.favorite-button:hover {
+    background-color: #ff0000;
+    color: white;
+    transform: scale(1.1);
+    
+}
+.favorite-button .animate {
+    animation: heartToCheck 0.2s ease-in-out;
+}
+
+
+@keyframes heartToCheck {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
